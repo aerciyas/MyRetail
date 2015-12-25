@@ -1,4 +1,4 @@
-The myRetail module contains all of it's source code at web.src.com.my.retail. The class
+This module contains all of it's source code at web.src.com.my.retail. The class
 web.src.com.my.retail.product.ProductDaoImpl handles the database access layer abstraction through Hibernate and
 web.src.com.my.retail.product.ProductServiceImpl acts as the middle layer that prepares the database entities for business use.
 Inside web.src.com.my.retail.webservice.ProductController
