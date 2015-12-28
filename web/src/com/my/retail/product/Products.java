@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by ahmet on 12/16/15.
  */
-public class Products {
+public class Products extends DomainEntity{
 
     List<Product> products;
 
@@ -21,11 +21,5 @@ public class Products {
     Products(List<Product> products)
     {
         this.products = products;
-    }
-
-    public String convertToJson() throws JSONException
-    {
-        JSONObject jsonProducts = new JSONObject(this);
-        return jsonProducts.toString();
     }
 }
